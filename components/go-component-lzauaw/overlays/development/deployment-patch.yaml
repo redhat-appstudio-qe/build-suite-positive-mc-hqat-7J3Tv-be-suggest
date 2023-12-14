@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: go-component-lzauaw
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/build-e2e-fliq-tenant/build-suite-positive-mc-hqat/go-component-lzauaw@sha256:e9d730e37939ba08f21934e0b66848d73fe46586028142327f859352df65e789
+        name: my-go
+        resources: {}
+status: {}
